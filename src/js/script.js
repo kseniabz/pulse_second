@@ -125,7 +125,7 @@ const slider = tns({
         $('.pageup').fadeOut();
       }
     });
-    $("a[href*='#']").on("click", function(e){
+    $("a[href*='#up']").on("click", function(e){
       var anchor = $(this);
       $('html, body').stop().animate({
         scrollTop: $(anchor.attr('href')).offset().top
