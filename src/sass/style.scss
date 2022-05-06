@@ -10,6 +10,9 @@
     max-width: 1000px;
     margin: 0 auto;
 }
+iframe{
+    width: 100%;
+}
 @import 'blocks/promo';
 @import 'blocks/header';
 @import 'blocks/buttons';
